@@ -1,5 +1,5 @@
 {
-    "name": "spondonit/lms-service",
+    "name": "optivius/lms-service",
     "description": "'Service Provider for Infix Lms application'",
     "type": "library",
     "require": {

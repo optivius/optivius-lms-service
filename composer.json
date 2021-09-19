@@ -1,0 +1,28 @@
+{
+    "name": "spondonit/lms-service",
+    "description": "'Service Provider for Infix Lms application'",
+    "type": "library",
+    "require": {
+        "spondonit/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spondonit",
+            "email": "hello@spondonit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SpondonIt\\LmsService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpondonIt\\LmsService\\SpondonItLmsServiceProvider"
+            ]
+        }
+    }
+}
